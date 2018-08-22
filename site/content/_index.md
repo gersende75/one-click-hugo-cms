@@ -1,6 +1,6 @@
 ---
-title: Great coffee with a conscience
-subtitle: Support sustainable farming while enjoying a cup
+title: Chez Marcel
+subtitle: Cantine sans prétention
 image: /img/home-jumbotron.jpg
 blurb:
   heading: Whatever you try
