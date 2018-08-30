@@ -1,7 +1,7 @@
 ---
 title: Chez Marcel
 subtitle: Cantine
-image: /img/about-direct-sourcing.jpg
+image: /img/black.jpg
 blurb:
   heading: Whatever you try
   text: >-
