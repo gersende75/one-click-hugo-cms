@@ -1,6 +1,6 @@
 ---
-title: Cantine
-subtitle: Chez Marcel
+title: Chez Marcel
+subtitle: Cantine
 image: /img/about-direct-sourcing.jpg
 blurb:
   heading: Whatever you try
