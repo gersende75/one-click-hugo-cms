@@ -1,7 +1,7 @@
 ---
-title: Chez tito
-subtitle: Cantine sans prétention
-image: /img/home-jumbotron.jpg
+title: Chez Marcel
+subtitle: Cantine
+image: /img/black.jpg
 blurb:
   heading: Whatever you try
   text: >-
