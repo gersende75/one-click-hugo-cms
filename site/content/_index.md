@@ -1,6 +1,6 @@
 ---
-title: Chez tito
-subtitle: Cantine sans prétention
+title: Cantine
+subtitle: Chez Marcel
 image: /img/home-jumbotron.jpg
 blurb:
   heading: Whatever you try
