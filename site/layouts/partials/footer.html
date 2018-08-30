@@ -1,51 +1,64 @@
-<footer class="bg-black ph3 pv4 white">
+<footer class="ph3 pv4" style="background-color:black">
 
 	<div class="mw7 center pt3">
 
-		<div class="measure-narrow center mb4">
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
-
-			{{ partial "newsletter-form" . }}
-
-		</div>
 
 		<div class="flex-ns justify-between">
 
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
+			<div class="cell small-12 medium-4 text-left">
+
 				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
+					<li><a href="/index.html" class="link">Accueil</a></li>
+					<li><a href="/products" class="link">La carte</a></li>
+					<li><a href="/values" class="link">Nos produits</a></li>
+					<!--<li><a href="/post" class="link">Nos actualités</a></li>-->
 					<li><a href="/contact" class="link">Contact</a></li>
+					<li><a href="https://www.lafourchette.com/restaurant/chez-marcel/313f4a77-d24b-405a-b2ab-31196a4a10f7" class="link">Réservation</a></li>
 				</ul>
 			</div>
 
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
+			<div class="cell small-12 medium-4 text-center">
+
+
+					<!--<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">-->
+					<p class="style">Newsletter</p>
+					<p class="style-2">Get awesome news from us in your inbox every two weeks.</p>
+
+					{{ partial "newsletter-form" . }}
+
+			<!--	<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
 				<ul class="mb3">
 					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
 					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
+				</ul>-->
 			</div>
 
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
+			<div class="cell small-12 medium-4 text-center">
+				<!--<h3 class="f4 b lh-title mb2 primary">Social media</h3>-->
+				<ul class="mb3">
+					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}</li>
+					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}</li>
+					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}</li>
+					<!--<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-pinterest") }}</li>-->
 				</ul>
 			</div>
 
 		</div>
+		<hr>
+		<div class="flex-ns justify-between">
+			<div class="cell small-12 medium-4 text-left">
+				  <img src="../img/bicycle.svg"  class="bike" style="width: 50px">
+
+			</div>
+				<div class="cell small-12 medium-4"></div>
+				<div class="cell small-12 medium-4 text-right">
+						<p class='copyright'>© 2018 Nago</p>
+				</div>
+			</div>
 	</div>
 
+</div>
 </footer>
 
 {{ partial "svg" . }}

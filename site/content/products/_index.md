@@ -1,7 +1,7 @@
 ---
-title: Our Coffee
+title: Notre carte
 type: products
-image: /img/products-jumbotron.jpg
+image: /img/resto-2.jpg
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -10,7 +10,7 @@ description: >-
   anyone.
 intro:
   blurbs:
-    - image: /img/illustrations-coffee.svg
+    - image: /img/resto-1.jpg
       text: >
         We sell green and roasted coffee beans that are sourced directly from
         independent farmers and farm cooperatives. We’re proud to offer a
@@ -52,7 +52,7 @@ main:
     optimal for the plants, farmers and the local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/resto-1.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
     image: /img/products-grid2.jpg
@@ -76,27 +76,25 @@ pricing:
     monthly subscription plans to receive great coffee at your doorstep each
     month. Contact us about more details and payment info.
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Parfait pour ceux et celles ayant un apétit léger.
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-nsoving couples and bigger crowds'
+        - Carottes rapées
+        - Poulet avec ses pommes de terre dorées au four
+        - Compote secrète de Marcel"
+      plan: Menu Marcel
+      price: '20'
+    - description: 'Un entre deux savoureux et magique qui vous épatera.'
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+        - Carpaccio de tomates à la mozzarella
+        - File de saumon grillé dans sa crème d'aneth
+        - Tarte au citron
+      plan: Menu Saveurs
+      price: '30'
+    - description: Menu des champions, pour ceux qui n'ont pas froid aux yeux
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '?'
+        - Quiche lorraine
+        - Pièce de boeuf et ses légumes jardinier
+        - Fondant au chocolat
+      plan: Menu Gourmand
+      price: '40'
 ---
-
-

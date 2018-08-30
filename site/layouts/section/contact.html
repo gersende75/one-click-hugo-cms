@@ -1,12 +1,13 @@
 {{ define "main" }}
 
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+{{ partial "short-text-6" .Params.blurb}}
+
 <div class="ph3 bg-off-white">
 	<div class="center mw6 pv3">
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-
-		{{ .Content }}
-
+		<!--<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">-->
 		<div class="flex-ns mb3">
 	        	{{ range .Params.contact_entries }}
 				<div>
@@ -15,6 +16,10 @@
 				</div>
 			{{ end }}
 		</div>
+
+		{{ .Content }}
+
+
 
 		{{ partial "contact-form" . }}
 
