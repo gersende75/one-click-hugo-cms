@@ -110,31 +110,34 @@ h2 {
   margin-left: -10px;
 }
 
-
+/* Nav */
 .navbar.navbar-2 .navbar-toggler-icon {
   background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff')!important;
 }
 
 .nav-link {
-color: #fff !important;
+  color: #fff !important;
 }
 .menu {
-text-transform: uppercase;
-color: white;
-margin-left: 15px;
-font-size: 17px;
-}
-ul.navbar-nav {
-margin-left: 17px;
-font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 15px;
+  font-size: 17px;
 }
 
-a.nav-link:hover{
-text-decoration: underline;
+ul.navbar-nav {
+  margin-left: 17px;
+  font-size: 18px;
 }
-a.menu:hover{
+
+a.nav-link:hover  {
+  text-decoration: underline;
+}
+
+a.menu:hover  {
 color:white;
 }
+
 p {
 font-size: 18px;
 }
@@ -142,11 +145,9 @@ font-size: 18px;
 .w-100 {
 width: 50% !important;
 }
-ul.mb3 {
-color:grey;
-font-size: 17px;
-line-height: 2
-}
-ul a:hover{
-color: grey;
+
+/* Short-text */
+h2.g{
+  color: #d3968c!important;
+  text-align: center
 }
