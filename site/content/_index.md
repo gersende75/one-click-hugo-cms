@@ -3,7 +3,7 @@ title: Chez Marcel
 subtitle: Cantine
 image: /img/black.jpg
 blurb:
-  heading: Whatever you try
+  heading: Marcel philosophie
   text: >-
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
