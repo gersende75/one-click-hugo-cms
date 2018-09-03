@@ -1,0 +1,43 @@
+footer {
+  background-color: black;
+}
+
+ul.mb3, ul.mb3_footer_menu {
+  color:grey;
+  font-size: 17px;
+  line-height: 2
+}
+
+@media screen and (max-width: 30em){
+  ul.mb3 {
+    display: inline-flex;
+  }
+  ul.mb3_footer_menu{
+    display: none;
+  }
+}
+
+p.copyright {
+  color:#808080;
+  font-size:15px;
+  margin-top: 2px;
+}
+
+.bike_footer {
+  margin-top: -15px;
+  width: 10%;
+}
+
+@media screen and (max-width: 30em) {
+  p.copyright {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .bike_footer  {
+    text-align: center!important;
+    width: 15%!important;
+    margin-right: 42%;
+  }
+}

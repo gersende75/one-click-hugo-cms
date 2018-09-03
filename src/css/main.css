@@ -47,6 +47,7 @@
 @import './imports/_font-style';
 @import './imports/_font-weight';
 @import './imports/_forms';
+@import './imports/_footer';
 @import './imports/_heights';
 @import './imports/_line-height';
 @import './imports/_links';
@@ -96,6 +97,7 @@
 .navbar-brand{
   color: white !important;
 }
+
 h1 {
   text-transform: uppercase;
   text-align: center;
@@ -107,11 +109,11 @@ h1 {
 }
 
 h2 {
-    text-transform: uppercase;
-    letter-spacing: 15px;
-    font-size: 25px;
-    color: white !important;
-      font-family: 'Unica One', cursive!important;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  font-size: 25px;
+  color: white !important;
+  font-family: 'Unica One', cursive!important;
 }
 
 .bike {
@@ -150,21 +152,7 @@ p {
 .w-100 {
   width: 50% !important;
 }
-ul.mb3, ul.mb3_menu {
-  color:grey;
-  font-size: 17px;
-  line-height: 2
-}
 
-@media screen and (max-width: 30em){
-  ul.mb3 {
-    display: inline-flex;
-  }
-  ul.mb3_menu{
-    display: none;
-  }
-
-}
 ul a:hover{
   color: grey;
 }
@@ -209,38 +197,11 @@ h2.gg{
     margin-bottom: 1.5rem;
     }
 
+    .navbar-toggler{
+      margin-left: -10px;
+    }
+
 }
 hr{
   border-top: 1px solid #808080!important;
-}
-
-.pb4{
-  margin-top: 40px;
-}
-
-input.placeholder{
-  font-size: 12px;
-}
-p.copyright{
-  color:#808080;
-  font-size:15px
-
-}
-.bike_footer{
-  margin-top: -15px;
-}
-@media screen and (max-width: 30em){
-
-  p.copyright  {
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 30em){
-
-  .bike_footer  {
-    text-align: center!important;
-    width: 15%!important;
-    margin-right: 42%;
-  }
 }
