@@ -150,29 +150,37 @@ p {
 .w-100 {
   width: 50% !important;
 }
-ul.mb3 {
+ul.mb3, ul.mb3_menu {
   color:grey;
   font-size: 17px;
   line-height: 2
+}
+
+@media screen and (max-width: 30em){
+  ul.mb3 {
+    display: inline-flex;
+  }
+  ul.mb3_menu{
+    display: none;
+  }
+
 }
 ul a:hover{
   color: grey;
 }
 
 .btn {
-  background-color: #fff!important;
-    border-radius: .25rem!important;
-    box-shadow: inset 0 0 0 2px #d3968c!important;
-    color: black!important;
-    display: inline-block!important;
-    font-size: 16px!important;
-    font-weight: 700!important;
-    line-height: 1.25!important;
-    padding: 12px 16px 10px!important;
-    text-align: center!important;
-    text-decoration: none!important;
-    transition: all .15s ease!important;
-    margin: 0rem!important
+  background-color: #ebe7e6!important;
+  border-radius: .25rem!important;
+  color: black!important;
+  display: inline-block!important;
+  font-size: 16px!important;
+  font-weight: 400!important;
+  line-height: 1.25!important;
+  padding: 14px 16px 10px!important;
+  text-align: center!important;
+  text-decoration: none!important;
+  margin: 0rem!important
 }
 
 p.style{
@@ -193,6 +201,15 @@ h2.gg{
   color: #d3968c!important;
   text-align: center
 }
+
+
+@media screen and (max-width: 30em){
+  h2.gg{
+    font-size: 1.5rem!important;
+    margin-bottom: 1.5rem;
+    }
+
+}
 hr{
   border-top: 1px solid #808080!important;
 }
@@ -208,4 +225,19 @@ p.copyright{
   color:#808080;
   font-size:14px
 
+}
+@media screen and (max-width: 30em){
+
+  p.copyright  {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 30em){
+
+  .bike_footer  {
+    text-align: center!important;
+    width: 15%!important;
+    margin-right: 42%;
+  }
 }
