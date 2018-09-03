@@ -223,8 +223,11 @@ input.placeholder{
 }
 p.copyright{
   color:#808080;
-  font-size:14px
+  font-size:15px
 
+}
+.bike_footer{
+  margin-top: -15px;
 }
 @media screen and (max-width: 30em){
 
