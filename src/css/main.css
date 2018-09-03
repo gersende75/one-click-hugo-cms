@@ -191,7 +191,7 @@ h2.gg{
 }
 
 
-@media screen and (max-width: 30em){
+@media screen and (max-width: 30em) {
   h2.gg{
     font-size: 1.5rem!important;
     margin-bottom: 1.5rem;
@@ -206,7 +206,18 @@ h2.gg{
       font-size: 18px;
     }
 
+    .full {
+      height: 300px!important;
+    }
+
+    .pv4 {
+      padding-bottom: 1rem;
+    }
 }
+
 hr{
   border-top: 1px solid #808080!important;
+}
+.full {
+  height: 550px;
 }
