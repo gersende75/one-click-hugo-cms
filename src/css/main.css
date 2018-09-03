@@ -198,7 +198,12 @@ h2.gg{
     }
 
     .navbar-toggler{
-      margin-left: -10px;
+      margin-left: -12px;
+    }
+
+    ul.navbar-nav {
+      margin-left: 0px;
+      font-size: 18px;
     }
 
 }
