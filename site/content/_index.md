@@ -1,7 +1,6 @@
 ---
 title: Chez Marcel
 subtitle: Cantine
-image: /img/black.jpg
 blurb:
   heading: Marcel philosophie
   text: >-
@@ -13,16 +12,16 @@ blurb:
     do good too.
 main:
   image1:
-    image: /img/about-direct-sourcing.jpg
+    alt: burger
+    image: /img/burger.jpg
   image2:
-    image: /img/about-jumbotron.jpg
+    image: /img/products-grid3.jpg
   image3:
     image: /img/about-jumbotron.jpg
   image4:
     image: /img/about-reinvest-profits.jpg
   image5:
     image: /img/about-reinvest-profits.jpg
-full_image: /img/about-jumbotron.jpg
 intro:
   heading: What we offer
   text: >-
