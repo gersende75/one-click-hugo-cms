@@ -761,8 +761,8 @@
     padding-bottom: var(--spacing-extra-large);
   }
   .pv6-l {
-    padding-top: var(--spacing-extra-extra-large);
-    padding-bottom: var(--spacing-extra-extra-large);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
   .pv7-l {
     padding-top: var(--spacing-extra-extra-extra-large);
