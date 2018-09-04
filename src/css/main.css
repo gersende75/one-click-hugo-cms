@@ -190,6 +190,9 @@ h2.gg{
   text-align: center
 }
 
+.d12{
+  width:50%!important;
+}
 
 @media screen and (max-width: 30em) {
   h2.gg{
@@ -212,6 +215,11 @@ h2.gg{
 
     .pv4 {
       padding-bottom: 1rem;
+    }
+
+    .d12{
+      width:100%!important;
+      margin-top: 10px;
     }
 }
 
