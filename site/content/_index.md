@@ -1,7 +1,7 @@
 ---
-title: CHEZ MARCEL
-subtitle: CANTINE
-image: /img/home-jumbotron.jpg
+title: Chez Marcel
+subtitle: Cantine
+image: /img/black.jpg
 blurb:
   heading: Marcel philosophie
   text: >-
