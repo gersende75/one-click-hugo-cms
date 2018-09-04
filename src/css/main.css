@@ -119,15 +119,17 @@ h2 {
 .bike {
   margin-top: -20px;
   margin-left: -10px;
+  width: 110px;
 }
 
-  .navbar.navbar-2 .navbar-toggler-icon {
-      background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff')!important;
+.navbar.navbar-2 .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff')!important;
   }
 
 .nav-link {
   color: #fff !important;
 }
+
 .menu {
   text-transform: uppercase;
   color: white;
