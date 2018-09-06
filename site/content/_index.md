@@ -13,15 +13,15 @@ blurb:
 main:
   image1:
     alt: burger
-    image: /img/burger.jpg
+    image: ''
   image2:
-    image: /img/products-grid3.jpg
+    image: ''
   image3:
-    image: /img/about-jumbotron.jpg
+    image: ''
   image4:
-    image: /img/about-reinvest-profits.jpg
+    image: ''
   image5:
-    image: /img/about-reinvest-profits.jpg
+    image: ''
 intro:
   heading: What we offer
   text: >-
